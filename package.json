@@ -1,0 +1,26 @@
+{
+    "name": "blue-hour",
+    "version": "0.1.0",
+    "displayName": "Blue Hour Syntax Theme",
+    "description": "A blue-greenish syntax highlight theme",
+    "publisher": "nptr",
+    "repository": "https://github.com/nptr/blue-hour",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "keywords": ["blue hour", "syntax", "highlight", "color", "theme"],
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue Hour (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-hour-dark.json"
+            }
+        ]
+    }
+}
